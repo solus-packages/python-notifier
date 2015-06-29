@@ -1,0 +1,33 @@
+<PISI>
+    <Source>
+        <Name>python-notifier</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <License>LGPL-2.1</License>
+        <Summary xml:lang="en">Python Notifier is a framwork for writing applications based on an event driving architecture</Summary>
+        <Description xml:lang="en">Python Notifier is a framwork for writing applications based on an event driving architecture. It provides one API that internally uses the own or one of three other known event/notifier implementations (GTK+, QT or Twisted). This helps writing libraries or components that may be used witin applications using any of the included notifier implementations.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-notifier</Name>
+        <Summary xml:lang="en">Python Notifier is a framwork for writing applications based on an event driving architecture</Summary>
+        <Description xml:lang="en">Python Notifier is a framwork for writing applications based on an event driving architecture. It provides one API that internally uses the own or one of three other known event/notifier implementations (GTK+, QT or Twisted). This helps writing libraries or components that may be used witin applications using any of the included notifier implementations.
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-06-29</Date>
+            <Version>0.9.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

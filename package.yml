@@ -1,0 +1,13 @@
+name       : python-notifier
+version    : 0.9.5
+release    : 1
+source     :
+    - http://blog.bitkipper.net/?dl_name=python-notifier_0.9.5.orig.tar.gz : 48713d143f1655e829d8ca81c7f59f19838d0137a6657f66c872b96a408d8cd6
+license    : LGPL-2.1
+summary    : Python Notifier is a framwork for writing applications based on an event driving architecture
+description: |
+    Python Notifier is a framwork for writing applications based on an event driving architecture. It provides one API that internally uses the own or one of three other known event/notifier implementations (GTK+, QT or Twisted). This helps writing libraries or components that may be used witin applications using any of the included notifier implementations.
+build      : |
+    python setup.py build
+install    : |
+    python setup.py install --root=%installroot% --no-compile -O0
